@@ -282,13 +282,19 @@
         // Inicializar cliente Supabase
         const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
         
-        // Verificar se já está logado ao carregar a página
-        supabase.auth.getSession().then(({ data: { session } }) => {
-            if (session) {
-                // Usuário já está logado, redirecionar para dashboard
-                window.location.href = 'dashboard.html'
+        // Forçar logout ao acessar página de login
+        async function initializePage() {
+            try {
+                // Forçar logout ao acessar página de login
+                await supabase.auth.signOut()
+                console.log('Sessão anterior limpa')
+            } catch (error) {
+                console.log('Nenhuma sessão para limpar ou erro:', error)
             }
-        })
+        }
+
+        // Executar ao carregar a página
+        initializePage()
         
         // Toggle password visibility
         function togglePassword(inputId, eyeId) {
