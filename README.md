@@ -1,33 +1,37 @@
-#🌙 Diário de Sonhos#
-Sistema web para registrar e acompanhar sonhos.
-O que faz
+# 🌙 Diário de Sonhos
 
-##Cadastro e login de usuários##
+**Sistema web para registrar e acompanhar sonhos.**
 
-Registrar sonhos com título, data e descrição
-Ver histórico de sonhos
-Editar e deletar registros
-Mostrar estatísticas do sono
+## ✨ O que faz
 
-##Tecnologias##
+- Cadastro e login de usuários  
+- Registrar sonhos com título, data e descrição  
+- Ver histórico de sonhos  
+- Editar e deletar registros  
+- Mostrar estatísticas do sono  
 
-HTML, CSS, JavaScript
-Tailwind CSS
-Supabase
+## 🛠 Tecnologias
 
-##Arquivos##
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Tailwind CSS**
+- **Supabase**
 
-index.html - Página inicial
-login.html - Login e cadastro
-dashboard.html - Dashboard principal
+## 📁 Arquivos
 
-##Como usar##
+- `index.html` – Página inicial  
+- `login.html` – Login e cadastro  
+- `dashboard.html` – Dashboard principal  
 
-Abra index.html
-Cadastre-se ou faça login
-Adicione seus sonhos
-Visualize estatísticas
+## 🚀 Como usar
 
+1. Abra `index.html`  
+2. Cadastre-se ou faça login  
+3. Adicione seus sonhos  
+4. Visualize estatísticas  
 
-Aluno: Marcos Vincius, Pedro Iahgo, Pedro Mori
-Curso: Desenvolvimento Web
+---
+
+**Aluno:** Marcos Vincius, Pedro Iahgo, Pedro Mori  
+**Curso:** Desenvolvimento Web
